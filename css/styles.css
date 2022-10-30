@@ -127,6 +127,9 @@ header {
   color: var(--accent-color);
 }
 
+.envelope {
+  fill: var(--primary-text-color);
+}
 /* Герой */
 
 .hero {
@@ -224,6 +227,32 @@ header {
 
 .features-list .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.features-list .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--team-background-color);
+  margin-bottom: 30px;
+}
+
+.features-list .icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+
+.features-list .icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+
+.features-list .icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+
+.features-list .icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
 }
 
 .features-list-titel {
