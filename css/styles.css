@@ -130,7 +130,7 @@ header {
 }
 
 .contacts-link .contacts:hover .envelope,
-.contacts-link .contacts:focus .envelopee {
+.contacts-link .contacts:focus .envelope {
   fill: var(--accent-color);
 }
 
@@ -260,6 +260,10 @@ header {
 }
 
 /* features */
+
+.features {
+  padding-bottom: 0;
+}
 
 .features-list {
   display: flex;
@@ -567,9 +571,7 @@ height: 44px;
 }
 
 .social-footer .text {
-  
-  width: 116px;
-  height: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
